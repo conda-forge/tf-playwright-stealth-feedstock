@@ -1,5 +1,5 @@
 context:
-  version: 1.1.2
+  version: "1.1.5"
 
 package:
   name: tf-playwright-stealth
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tf-playwright-stealth/tf_playwright_stealth-${{ version }}.tar.gz
-    sha256: d9f78890940c1d1de5b73c366f68930a206bd62d7a06aba4be32fc222ba058b4
+    sha256: 28a01cf65beb340876fd77487cf46df27124fab291ec97c0c9ac61f783f40059
 
 build:
-  number: 2
+  number: 0
   skip:
     - win
   script: ${{ PYTHON }} -m pip install .
